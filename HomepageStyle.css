@@ -1,0 +1,318 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cache.careers360.mobi/media/colleges/social-media/media-gallery/4009/2018/10/23/Campus%20View%20of%20Keshav%20Memorial%20Institute%20of%20Technology%20Hyderabad_Campus-View.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap');
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+header {
+    background: linear-gradient(to right, #333, #111);
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gateguardlogo {
+    height: 80px;
+    margin-bottom: -10px;
+    margin-left: -150px;
+}
+
+.kmitlogo {
+    height: 78px;
+    width: 250px;
+    margin-bottom: -10px;
+    margin-left: 30px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    margin-left: -10%;
+    margin-bottom: -60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: -120px;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 0px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    position: relative;
+    font-size: 17px;
+}
+
+nav ul li a:hover::after {
+    visibility: hidden;
+    bottom: -10px;
+}
+
+nav ul li a:hover {
+    background-color: #111111;
+    border-radius: 10px;
+}
+
+
+.main-content {
+    padding: 10px 20%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading{
+    margin-top: 2px;
+    padding: -2px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ccc3b2;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.479);
+    transform: scale(1.010);
+}
+
+/* Welcome message style */
+.welcome-message {
+    font-family: sans-serif;
+    color: black;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.service-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ccc3b2;
+}
+
+.instruction_section {
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ccc3b2;
+}
+
+.instruction_section h3{
+    text-decoration: underline;
+    color: #111;
+}
+
+.instruction_section .instruction-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.instruction_section .instruction-item i {
+    font-size: 2em;
+    color: #111;
+    margin-right: 10px;
+}
+
+.instruction_section .instruction-text {
+    flex: 1;
+}
+
+.instruction_section .instruction-title {
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #111;
+    font-weight: bold;
+}
+
+.instruction_section p {
+    text-align: justify;
+    color: #555;
+    font-weight: bold;
+}
+
+.role-card {
+    background-color: bisque;
+}
+
+.role-card-body {
+    color: #111;
+}
+
+.role-card-title {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.role-button {
+    background-color: #333;
+    transition: transform 0.3s ease-in-out;
+}
+
+.role-button:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .btn-floating:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.footer .btn-floating {
+    border-radius: 40%;
+    display: inline-block;
+    padding: 0.5rem 0;
+    width: 3.5rem;
+    height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: background-color 0.15s ease-in-out;
+    margin: 0.25rem;
+}
+
+.footer .facebook {
+    background-color: #3b5998;
+}
+
+.footer .twitter {
+    background-color: #55acee;
+}
+
+.footer .google {
+    background-color: #dd4b39;
+}
+
+.footer .instagram {
+    background-color: #ac2bac;
+}
+
+.footer .linkedin {
+    background-color: #0082ca;
+}
+
+.footer .btn-floating:hover {
+    opacity: 0.8;
+}
+
+.footer a.text-white {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .role-card {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    header .gateguardlogo, 
+    header .kmitlogo {
+        max-height: 40px;
+    }
+
+    .main-content h1 {
+        font-size: 24px;
+    }
+
+    .role-card .card-title {
+        font-size: 20px;
+    }
+
+    .role-card .card-text {
+        font-size: 16px;
+    }
+
+    .role-button {
+        font-size: 14px;
+    }
+
+    .instruction_section p {
+        font-size: 16px;
+    }
+}
